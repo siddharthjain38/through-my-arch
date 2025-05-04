@@ -2,7 +2,7 @@
 
 When building messaging apps (or any system that handles write operations), **idempotency** is essential. Network retries, dropped connections, and user impatience can trigger repeated requests, leading to duplicate messages or inconsistent system states. Ensuring **idempotent write APIs** helps mitigate these issues, so repeated requests don’t cause unintended side effects.
 
-In this post, we’ll dive into how to design **idempotent write APIs**, especially for tasks like sending messages, ensuring that repeated requests produce consistent outcomes.
+Let's explore how to design **idempotent write APIs**, especially for tasks like sending messages, ensuring that repeated requests produce consistent outcomes.
 
 ---
 
